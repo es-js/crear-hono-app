@@ -6,7 +6,7 @@ Plantilla para iniciar un proyecto [EsJS](https://esjs.dev/) + [Hono](https://ho
 
 ### Desde GitHub
 
-Utilizando este proyecto como *template*.
+Utilizando este proyecto como _template_.
 
 ### Desde tu computadora
 

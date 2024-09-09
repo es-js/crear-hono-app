@@ -16,12 +16,8 @@
   },
   "customizations": {
     "codespaces": {
-      "openFiles": [
-        "api/app.esjs"
-      ]
+      "openFiles": ["api/app.esjs"]
     }
   },
-  "extensions": [
-    "enzonotario.vscode-esjs"
-  ]
+  "extensions": ["enzonotario.vscode-esjs"]
 }

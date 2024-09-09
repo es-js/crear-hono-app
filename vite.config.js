@@ -18,15 +18,7 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./api', import.meta.url)),
     },
-    extensions: [
-      '.js',
-      '.json',
-      '.jsx',
-      '.mjs',
-      '.ts',
-      '.tsx',
-      '.esjs',
-    ],
+    extensions: ['.js', '.json', '.jsx', '.mjs', '.ts', '.tsx', '.esjs'],
   },
   build: {
     outDir: './dist',

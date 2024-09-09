@@ -6,12 +6,25 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build --ssr --mode=production",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "format": "prettier --write ."
   },
   "devDependencies": {
-    "@es-js/vite-plugin-esjs": "^0.1.0-beta.0",
-    "vite": "^5.2.11",
-    "hono": "^4.3.6",
-    "@hono/vite-dev-server": "^0.12.1"
+    "@es-js/vite-plugin-esjs": "^0.1.0-beta.2",
+    "@hono/vite-dev-server": "^0.16.0",
+    "hono": "^4.5.11",
+    "prettier": "^3.3.3",
+    "prettier-plugin-esjs": "0.1.0-beta.2",
+    "vite": "^5.4.3"
+  },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-esjs"
+    ],
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "avoid",
+    "tabWidth": 2
   }
 }
